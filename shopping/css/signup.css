@@ -1,0 +1,172 @@
+header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+
+header img {
+    margin-top: 15px;
+}
+
+.signup {
+    height: 541px;
+}
+
+.signup .content {
+    margin-top: 20px;
+    height: 521px;
+    border: 1px solid #dfdfdf;
+}
+
+.signup .content .nav {
+    height: 40px;
+    /* width: 1200px; */
+    background-color: #ececec;
+    border-bottom: 1px solid #dfdfdf;
+    line-height: 40px;
+}
+
+.signup>.content>.nav>.signup {
+    float: left;
+    margin-left: 10px;
+}
+
+.signup>.content>.nav>.login {
+    float: right;
+    margin-right: 10px;
+}
+
+.signup>.content>.nav>.login>span>a {
+    color: #c81623;
+}
+
+/* .signup .content ul li input {
+    outline: 1px solid ;
+    margin-left: 400px;
+} */
+.signup .content ul li {
+    margin: 0 auto;
+    height: 46px;
+    width: 600px;
+}
+
+.signup .content ul {
+    margin-top: 50px;
+}
+
+/* .signup .content ul li::after {
+    display: block;
+    content: '';
+    overflow: hidden;
+    clear: both;
+} */
+/* .signup .content ul>li>.text {
+    text-align: right;
+    width: 90px;
+    line-height: 36px;
+} */
+/* .signup .content ul>li>div {
+    float: left;
+} */
+.signup .content ul li label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    /* line-height: 90px; */
+}
+
+.signup .content ul li .input {
+    outline: 1px solid;
+    height: 34px;
+    width: 238px;
+}
+
+.right {
+    font-size: 12px;
+    color: rgb(68, 134, 65);
+    line-height: 36px;
+}
+
+.error {
+    font-size: 12px;
+    color: #df3033;
+    line-height: 36px;
+}
+
+.error_icon {
+    background: url(../upload/error_icon.png);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.signup .content ul .safe {
+    padding-left: 166px;
+    /* display: inline-block; */
+    color: #b9b9b9;
+    height: 35px;
+    /* text-align: center; */
+    /* line-height: 46px; */
+    /* margin-left: 50px; */
+
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+    /* background-color: #d6c3c3; */
+}
+
+.safe .ruo {
+    background-color: #de1111;
+}
+
+.safe .zhong {
+    background-color: #40b83f;
+}
+
+.safe .qiang {
+    background-color: #f79100;
+}
+
+.signup .content ul .agree {
+    padding-left: 90px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    line-height: 20px;
+    height: 20px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.signup .content ul .sub {
+    padding-left: 110px;
+    margin-bottom: 50px;
+}
+
+.submit {
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+    font-size: 14px;
+    height: 34px;
+    width: 200px;
+    /* padding-left: 170px; */
+    background-color: #c81623;
+}
+
+.footer_ {
+    height: 97px;
+}
+
+.footer {
+    padding-top: 5px;
+    /* margin-top: 24px; */
+}

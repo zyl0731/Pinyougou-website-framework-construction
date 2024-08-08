@@ -1,0 +1,337 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 10px;
+    /* background-color: #e0d5d5; */
+}
+
+.focus {
+    float: left;
+}
+
+.focus ul li {
+    height: 455px;
+    width: 720px;
+    /* background: url(../upload/focus1.png) center no-repeat; */
+    /* float: left; */
+}
+
+.newsflash {
+    float: right;
+    margin-left: 10px;
+    width: 250px;
+    height: 100%;
+    /* background-color: #bc2020; */
+    box-sizing: border-box;
+
+}
+
+.newsflash .news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+    box-sizing: border-box;
+}
+
+.newsflash .news .news-hd {
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.newsflash .news .news-hd h5 {
+    float: left;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-left: 15px;
+    color: #333333;
+}
+
+.newsflash .news .news-hd a {
+    float: right;
+    margin-right: 10px;
+    line-height: 32px;
+}
+
+.newsflash .news .news-hd a::after {
+    font-family: 'icomoon';
+    content: '\e903';
+    margin-left: 5px;
+    /* font-size: 20px; */
+    /* height: 4px; */
+    /* width: 4px; */
+}
+
+.newsflash .news .news-bd ul {
+    margin-top: 6px;
+    margin-left: 15px;
+}
+
+.newsflash .news .news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.newsflash .lifeservice {
+    height: 210px;
+    border: 1px solid #e4e4e4;
+    box-sizing: border-box;
+    margin-top: -1px;
+    overflow: hidden;
+}
+
+.newsflash .lifeservice ul {
+    width: 252px;
+    height: 210px;
+    /* background-color: #8d2c2c; */
+}
+
+.newsflash .lifeservice ul li {
+    float: left;
+    height: 70px;
+    width: 63px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    box-sizing: border-box;
+    /* margin: -1px; */
+    /* margin-top: -1px; */
+    /* margin-left: -1px; */
+}
+
+.newsflash .lifeservice ul li a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 13px;
+    /* background-color: #961818; */
+}
+
+.newsflash .lifeservice ul li a i {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    /* background: url(../images/icons.png)-17px -16px; */
+}
+
+.newsflash .lifeservice ul li a .huafei {
+    background: url(../images/icons.png)-17px -16px;
+}
+
+.newsflash .lifeservice ul li a .jipiao {
+    background: url(../images/icons.png)-78px -16px;
+    /* position: relative; */
+}
+
+.newsflash .lifeservice ul li:nth-child(2) {
+    position: relative;
+}
+
+.newsflash .lifeservice ul li img {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.newsflash .lifeservice ul li a .dianyingpiao {
+    background: url(../images/icons.png)-141px -16px;
+}
+
+.newsflash .lifeservice ul li a .youxi {
+    background: url(../images/icons.png)-206px -16px;
+}
+
+.newsflash .lifeservice ul li a .caipiao {
+    background: url(../images/icons.png)-17px -88px;
+}
+
+.newsflash .lifeservice ul li a .jiayouka {
+    background: url(../images/icons.png)-78px -88px;
+}
+
+.newsflash .lifeservice ul li a .jiudian {
+    background: url(../images/icons.png)-141px -88px;
+}
+
+.newsflash .lifeservice ul li a .huochepiao {
+    background: url(../images/icons.png)-206px -88px;
+}
+
+.newsflash .lifeservice ul li a .zhongchou {
+    background: url(../images/icons.png)-17px -159px;
+}
+
+.newsflash .lifeservice ul li a .licai {
+    background: url(../images/icons.png)-78px -159px;
+}
+
+.newsflash .lifeservice ul li a .lipinka {
+    background: url(../images/icons.png)-141px -159px;
+}
+
+.newsflash .lifeservice ul li a .baitiao {
+    background: url(../images/icons.png)-206px -159px;
+}
+
+.newsflash .lifeservice ul li a p {
+    font-size: 12px;
+}
+
+.newsflash .bargain {
+
+    margin-top: 6px;
+}
+
+.newsflash .bargain img {
+    height: 75px;
+    width: 250px;
+}
+
+.recom {
+    height: 163px;
+    margin-top: 10px;
+}
+
+.recom .recom_hd {
+    height: 163px;
+    width: 206px;
+    float: left;
+}
+
+.recom .recom_hd img {
+    height: 100%;
+    width: 100%;
+}
+
+.recom .recom_bd {
+    height: 163px;
+    width: 994px;
+    float: right;
+    /* background-color: #ededed; */
+}
+
+.recom .recom_bd li {
+    float: left;
+    height: 163px;
+    position: relative;
+}
+
+.recom .recom_bd li img {
+    height: 163px;
+    width: 248.5 px;
+}
+
+.recom .recom_bd li:nth-child(-n+3)::after {
+    content: '';
+    /* display: inline-block; */
+    background-color: #ddd;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    /* margin-top: 10px; */
+    height: 143px;
+    width: 1px;
+}
+
+.floor .box_hd {
+    height: 56px;
+    width: 1200px;
+    border-bottom: 2px solid #c81623;
+
+    /* margin-top: 30px; */
+    padding-top: 15px;
+    line-height: 41px;
+    /* box-sizing: border-box; */
+}
+
+.floor .box_hd h3 {
+    float: left;
+
+    color: #c81623;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.floor .box_hd ul {
+    float: right;
+    margin-right: 9px;
+}
+
+.floor .box_hd ul li {
+    float: left;
+}
+
+.floor .box_hd ul li:nth-of-type(2n) {
+    color: #666;
+    /* font-size: 12px; */
+    width: 1px;
+    height: 12px;
+    /* margin-top: 9px; */
+    /* margin-right: 10px; */
+    margin: 0px 15px 0px 15px;
+}
+
+.floor .box_bd {
+    height: 360px;
+    /* float: left; */
+}
+
+.floor .bottom {
+    height: 66px;
+    margin-top: 20px;
+}
+
+.floor .box_bd .tab_content .tab_list_item li {
+    float: left;
+}
+
+.floor .box_bd .tab_content .tab_list_item .col_210 {
+    height: 360px;
+    width: 210px;
+}
+
+.floor .box_bd .tab_content .tab_list_item .col_210 li {
+    width: 85px;
+    margin: 0 10px;
+    height: 33px;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+    line-height: 33px;
+    /* position: relative; */
+}
+
+/* .floor .box_bd .tab_content .tab_list_item .col_210 li::after {
+    content: '';
+    position: absolute;
+    width: 86px;
+    height: 1px;
+    bottom: 0;
+    left: 13px;
+    background-color: #ededed;
+} */
+
+.floor .box_bd .tab_content .tab_list_item .col_330 {
+    width: 330px;
+    height: 360px;
+}
+
+.floor .box_bd .tab_content .tab_list_item .col_220 {
+    width: 220px;
+    height: 360px;
+    /* background-color: #6d2020; */
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.floor .box_bd .tab_content .tab_list_item .box div {
+    height: 180px;
+    border-bottom: 1px solid #ededed;
+
+}
+/* .floor .box_bd .tab_content .tab_list_item>li:nth-child(2n+3) {
+    height: 180px;
+    border-bottom: 1px solid #ededed;
+} */

@@ -1,0 +1,76 @@
+/* // 清除内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+    /* // css3盒子模型 */
+    box-sizing: border-box;
+}
+h3 {
+    margin: 0;
+}
+/* // em，i清除斜体 */
+em,
+i {
+    font-style: normal
+}
+
+/* // 去掉li前面小圆点 */
+li {
+    list-style: none
+}
+
+img {
+    /* // 照顾低版本浏览器,如果图片外面含有链接会有边框问题 */
+    border: 0;
+    /* // 取消图片底端白色空隙问题 */
+    vertical-align: middle
+}
+
+button {
+    /* // 鼠标经过button变成小手 */
+    cursor: pointer
+}
+
+a {
+    color: #666;
+    /* // 去除底下横线 */
+    text-decoration: none
+}
+
+a:hover {
+    color: #c81623
+}
+
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    border: 0;
+    outline: none;
+}
+
+body {
+    /* // 抗锯齿 CSS3 */
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    /* // 12px字号字体，1.5倍行高为12*1.5=18px */
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    /* // \5B8B\4F53 Unicode编码显示的宋体，能避免浏览器解释CSS代码时出现乱码 */
+    color: #666
+}
+
+.hide,
+.none {
+    display: none
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    zoom: 1
+}
